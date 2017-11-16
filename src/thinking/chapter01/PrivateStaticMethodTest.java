@@ -1,6 +1,6 @@
 package thinking.chapter01;
 /**
- * 静态私有方法测试
+ * 静态私有方法测试。同时使用private， static修饰符时，方法和属性会有怎样的特性
  * @author Mr.w
  *
  */
