@@ -1,0 +1,16 @@
+控制执行流程
+	流程控制关键字包括if-else  while  do-while  for  return	 break	switch,Java不支持goto
+	1.true和false
+	2.if-else
+		if(){此处若只有一句话，可省略大括号}else{此处若只有一句话，可省略大括号}
+	3.迭代while  do-while  for
+	4.Foreach语法（用于数组和容器）本质上是个Iterator
+	5.return
+		两方面作用：指定方法返回什么值，导致当前方法推出
+	6.break和continue
+		break用于终止循环，continue结束本次循环，进入下次循环
+	7.臭名昭著的goto
+		Java中没有goto，但可以通过标签实现goto效果
+	8.switch
+	
+	
