@@ -23,6 +23,7 @@ class Cups {
 	static Cup cup1;
 	static Cup cup2;
 	static {
+		//显式静态初始化
 		cup1 = new Cup(1);
 		cup2 = new Cup(2);
 	}

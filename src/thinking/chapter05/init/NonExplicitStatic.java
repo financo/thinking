@@ -7,7 +7,9 @@ package thinking.chapter05.init;
 public class NonExplicitStatic {
 	Mug mug1;
 	Mug mug2;
+	Mug mug3 = new Mug(3);
 	{
+		//显式非静态初始化
 		mug1 = new Mug(1);
 		mug2 = new Mug(2);
 		System.out.println("mug1 & mug2 initialized");
