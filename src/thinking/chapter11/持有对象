@@ -1,2 +1,27 @@
 持有对象
 	1.泛型和类型安全的容器
+	2.基本概念
+	3.添加一組元素
+		工具类：Arrays	Collections
+	4.容器的打印
+	5.List
+		contains() remove() indexOf() subList() containsAll() sort() shuffle()
+		retainAll() removeAll() addAll() isEmpty() clear() toArray()
+	6.迭代器
+	7.LinkedList
+		getFirst() == element() ~~ peek()   返回第一个元素，List为空，前两个异常，peek返回null
+		removeFirsr() == remove() ~~ poll 移除并返回表头，List为空，前两个异常，poll返回null
+	8.Stack
+		后进先出，用LinkedList实现的
+		push() peek()（不移除栈顶元素） pop()（移除栈顶元素）
+	9.Set
+		不保存重复元素
+		contains() add() addAll() remove() removeAll()
+	10.Map
+		get() put() containsKey() containsValue()
+	11.Queue
+		先进先出  用LinkedList可以作为一种实现
+		offer()插入队尾   peek() element()不移除的情况下返回队头   poll() remove()移除并返回队头
+	12.Collection和Iterator
+	13.Foreach迭代器
+		实现了Iterator就可以使用Foreach
