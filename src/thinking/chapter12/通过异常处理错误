@@ -1,0 +1,29 @@
+通过异常处理错误
+	1.概念
+		把正常执行过程中做什么事，除了问题怎么办相分离
+	2.基本异常（如何抛出异常）
+		Throwable对象时是异常的根类。通过throw抛出异常对象
+	3.捕获异常（如何捕获异常）
+		try{..}catch{...}
+	4.创建自定义异常（自定义异常，并使用日志记录异常）
+		自定义异常输出以及重定向
+	5.异常说明（方法上声明异常）
+		throws关键字
+	6.捕获所有异常 （获取异常信息）
+		获得异常信息getMessage() getLoaclizedMessage() printStackTrace()
+		栈轨迹：e.printStackTrace()方法所提供的信息可以通过getStackTrace()直接访问
+		重新抛出异常：使用fillInStackTrace()方法更新调用栈信息
+		异常链：initCause(Exception)在异常链中插入异常，打印的异常以Casued by显示
+	7.Java标准异常
+		RuntimeException为不受编译检查的异常，如果没被捕获而直达main()，程序退出前
+		调用异常的printStackTrace
+	8.使用finally进行清理
+		finally中的代码一定会被执行，try中若有return，则在finally执行后返回return值，
+		在finally不要修改返回值，若在finally中的代码抛出异常，则会导致try中异常丢失
+	9.异常的限制
+		在继承时，导出类不能不能比基类抛出多的异常
+	10.构造器
+		有些异常需要嵌套try{}catch{}来捕获，例如打开一个输入流
+	11.异常匹配
+		派生类异常也可以被基类异常捕获
+	12.其他可选方式
