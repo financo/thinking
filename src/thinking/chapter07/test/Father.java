@@ -7,7 +7,7 @@ public class Father {
 		f2();
 	}
 	
-	public/* private*/ void f2(){
+	/*public*/ private void f2(){
 		System.out.println("Father --> f2");
 		System.out.println(this);
 	}
