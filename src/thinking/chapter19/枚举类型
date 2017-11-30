@@ -1,0 +1,10 @@
+枚举类型
+	1.基本enum特性
+		values()返回enum实例数组
+		ordinal()返回enum实例声明的顺序
+	2.向enum中添加新方法
+	3.switch语句中的enum
+	4.values()的神秘之处
+	5.实现，而非继承
+	6.随机选取
+	7.使用接口组织枚举
